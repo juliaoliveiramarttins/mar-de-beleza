@@ -1,0 +1,21 @@
+
+.manut-tela {
+    text-align: center; /* Centralizar texto dentro do div */
+}
+
+.manut-tela img {
+    max-width: 150px; /* Ajustar o tamanho da imagem */
+    margin: 20px 0; /* Espaçamento acima e abaixo da imagem */
+}
+
+h1 {
+    margin-top: 100px;
+    color: #1351a3; /* Cor do título */
+    margin-bottom: 10px; /* Espaço abaixo do título */
+    font-size: 25px;
+}
+
+p {
+    color: #333; /* Cor do parágrafo */
+    font-size: 19px; /* Tamanho da fonte do parágrafo */
+}
