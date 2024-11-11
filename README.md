@@ -1,3 +1,7 @@
+PARA BAIXAR O NODE MODULES USE O COMANDO: NPM INSTALL
+PARA RODAR A APLICAÇÃO USE O COMANDO: NPM START
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

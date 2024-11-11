@@ -1,0 +1,19 @@
+.ad-container{
+    padding-bottom: 5rem;
+    text-align: center;
+    /*background-color: #eafffc;*/
+}
+
+.ad-container h2{
+    background-color: #F6E7D7;
+    font-size: 40px;
+    padding: 10px 15px;
+    font-family: "Dancing Script", cursive;
+    color: rgb(41, 101, 170);
+    
+}
+.ad-container p{
+    font-size: 20px;
+    font-family: dancing;
+}
+

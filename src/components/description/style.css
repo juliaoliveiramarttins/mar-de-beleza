@@ -1,0 +1,41 @@
+/*Services*/
+.services-container {
+    padding: 5rem 0;
+    
+}
+
+.services-container img {
+    width: 90px;
+}
+
+.services-container h3 {
+    color: rgb(228, 98, 178);
+    margin-top: 10px;
+}
+
+.services-container ul {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.services-container li {
+    flex: 1 1 200px;
+    list-style: none;
+    padding: 20px;
+    text-align: center;
+}
+
+.services-container p {
+    margin-top: 10px;
+    color: #333;
+    line-height: 25px;
+    text-align: justify;
+}
+
+@media(max-width:638px) {
+    .services-container ul {
+        flex-direction: column;
+        margin-left: -20px;
+    }
+}
