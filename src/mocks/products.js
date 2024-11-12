@@ -20,7 +20,7 @@
     image: "./img/gloss.png",
     topics: ['10 Cores Diferentes!' , 'Textura Leve' , 'Brilho Intenso' , 'Leve efeito de Plump nos lábios' , 'Hidratação Duradoura']
   },
-  
+   
 ]
 
 export default products

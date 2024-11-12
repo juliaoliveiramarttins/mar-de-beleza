@@ -104,16 +104,23 @@
   display: none;
 }
 
+.btn-sidebar{
+  font-weight:bold ; 
+}
+
 @media(max-width:572px){
   .menu-icon img {
     display: block;
     margin: 0;
-    padding-top: 5%;
+    padding-top: 6%;
   }
   #sidebar{
     display:block ;
   }
   .navbar-mobile{
+    display: none;
+  }
+  .btn{
     display: none;
   }
 }

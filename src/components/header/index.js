@@ -32,13 +32,17 @@ const Header = () => {
     return (
         <div className="container">
             <div className="navbar-container">
+
                 <nav>
-                    <ul className="navbar-itens">
-                        <div className="navbar-mobile">
-                            <li><a href="/">Home</a></li>
-                            <li><a href="#produtos">Favoritos</a></li>
-                            <li><a href="#footer">Contato</a></li>
-                        </div>
+                    <ul className="navbar-itens"> 
+                       {/* <div className="logo">                
+                            <img src="img/beleza.svg" alt="Imagem de Beleza" className="logo-svg"/>
+                        </div> */}.
+                            <div className="navbar-mobile">
+                                <li><a href="/">Home</a></li>
+                                <li><a href="#produtos">Favoritos</a></li>
+                                <li><a href="#footer">Contato</a></li>
+                            </div>
                         <li><a href="/error" className="btn"><span>Entrar</span></a></li>
                     </ul>
                     <div
@@ -58,6 +62,7 @@ const Header = () => {
                             <li><a href="/">Home</a></li>
                             <li><a href="#produtos">Favoritos</a></li>
                             <li><a href="#footer">Contato</a></li>
+                            <li><a href="/error" className="btn-sidebar"><span>Entrar</span></a></li>
                         </ul>
                     </aside>
                 </nav>
