@@ -1,23 +1,23 @@
 /* Estilo para cada item (card de produto) */
 .product-card {
     background-color: #fff;
-    border-radius: 15px; /* Borda arredondada dos cards */
+    border-radius: 15px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    width: 280px; /* Largura fixa dos cards */
-    height: auto; /* Altura automática para ajuste ao conteúdo */
+    width: 280px; 
+    height: auto; 
     transition: transform 0.3s ease;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centraliza os itens horizontalmente */
-    text-align: center;  /* Centraliza o texto */
+    align-items: center; 
+    text-align: center; 
     
   }
 
   .famous-products{
     margin-top: 40px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 100%;
     gap: 20px 5px;
     flex-wrap: wrap;
@@ -27,37 +27,35 @@
 
   /* Efeito de hover para o card */
   .product-card:hover {
-    transform: translateY(-5px); /* Levanta o card ao passar o mouse */
+    transform: translateY(-5px); 
   }
   
   /* Nome do produto */
   .product-title {
-    color: rgb(230, 129, 208);
+    color: rgb(214, 82, 186);
     font-size: 20px;
     font-weight: bold;
     margin-top: 0;
     margin-bottom: 10px;
     padding: 10px;
-    border-radius: 15px;
     text-align: center;
-    background-color: #f4f4f9;
-    width: 100%; /* Garante que o título ocupe toda a largura */
+    width: 100%; 
   }
   
   /* Imagem do produto */
   .product-image {
-    width: 100%; /* Faz a imagem ocupar toda a largura do card */
-    height: 150px; /* Diminuir a altura da imagem */
-    object-fit: cover; /* A imagem se ajusta para cobrir completamente o espaço sem distorcer */
+    width: 100%; 
+    height: 150px;
+    object-fit: cover; 
     border-radius: 10px;
     
   }
   
   /* Lista de características do produto */
   .product-list {
-    padding: 0; /* Remove o padding default da lista */
-    list-style: none; /* Remove os marcadores da lista */
-    margin-bottom: 20px; /* Deixa o espaçamento entre os itens e o botão mais controlado */
+    padding: 0; 
+    list-style: none; 
+    margin-bottom: 20px; 
   }
   
   .product-list li {
@@ -65,6 +63,8 @@
     line-height: 22px;
     text-align: center;
     padding: 5px;
+    border-bottom: 1px solid #d3e3f7;
+    
     
   }
   
@@ -81,8 +81,8 @@
     transition: background-color 0.3s ease;
     display: block;
     margin: 10px auto;
-    width: 80%; /* Ajusta o botão para não ocupar 100% da largura */
-    text-decoration: none; /* Remove o sublinhado do link */
+    width: 80%; 
+    text-decoration: none; 
   }
   
   .product-btn:hover {
@@ -91,10 +91,10 @@
 
   /* Imagem do produto */
 .product-image {
-    width: 250px; /* Definir a largura da imagem */
-    height: 250px; /* Definir a altura da imagem igual à largura para torná-la redonda */
-    object-fit: contain; /* Faz com que a imagem se ajuste sem ser cortada */
-    border-radius: 50%; /* Torna a imagem redonda */
+    width: 250px; 
+    height: 250px; 
+    object-fit: contain; 
+    border-radius: 50%; 
     margin-bottom: 20px;
   }
   
@@ -102,19 +102,19 @@
   /* Responsividade para telas menores */
   @media (max-width: 630px) {
     .product-card {
-      padding: 15px; /* Menos padding em telas menores */
+      padding: 15px; 
     }
   
     .product-title {
-      font-size: 18px; /* Reduzir o tamanho da fonte no nome do produto */
+      font-size: 18px; 
     }
   
     .product-image {
-      height: 140px; /* Ajustar o tamanho da imagem em telas pequenas */
+      height: 140px; 
     }
   
     .product-btn {
-      font-size: 16px; /* Font menor para o botão */
+      font-size: 16px; 
     }
   }
   

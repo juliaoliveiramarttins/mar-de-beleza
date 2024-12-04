@@ -1,7 +1,7 @@
   
  const products = [
     {
-    name: 'Base ondas do mar',
+    name: 'Base Ondas do Mar',
     image:"./img/base.png",
     topics: ['Acabamento natural Semi Matte' , 'Textura Fluida' , 'Proteção solar SPF 35' , 'Cobertura construível' , 'Resistente a Água']
   },

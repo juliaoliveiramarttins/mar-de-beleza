@@ -13,7 +13,6 @@
   width: calc(148% + 1.3px);
   height: 178px;
   background: #ffffff;
-  margin-bottom: -2px;
 }
 
 .custom-shape-divider-bottom-1683068753 .shape-fill {
@@ -24,7 +23,7 @@
   background-color: #162d6b;
   color: #fff;
   font-size: 1em;
-  padding: 20px 0;
+  padding: 11px 0;
   /* Espaço ao redor do footer */
   clear: both;
   /* Limpa flutuações, se necessário */
@@ -34,7 +33,6 @@
   float: left;
   width: 80%;
   margin: 0 10%;
-  padding: 1rem 0;
 }
 
 .footer_container {
