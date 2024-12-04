@@ -1,32 +1,69 @@
 .ad-principal-container {
-    background-image: 
-    linear-gradient(to bottom, rgba(10, 76, 131, 0.2), rgba(15, 47, 83, 0.3)),
-    url('/public/img/adbanner.jpg');
-    background-size: cover; /* Faz a imagem ocupar toda a área */
-    background-position: center; /* Centraliza a imagem no fundo */
-    background-repeat: no-repeat; /* Evita repetição da imagem */
-    height: 45vh; /* Altura total da viewport */
-    display: flex; /* Ativa o flexbox para centralizar conteúdo */
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
+  background-image: 
+      linear-gradient(to bottom, rgba(10, 76, 131, 0.2), rgba(15, 47, 83, 0.3)),
+      url('/public/img/adbanner.jpg');
+  background-size: cover; /* Faz a imagem ocupar toda a área */
+  background-position: center; /* Centraliza a imagem no fundo */
+  background-repeat: no-repeat; /* Evita repetição da imagem */
+  height: 45vh; /* Altura total da viewport */
+  display: flex; /* Ativa o flexbox para centralizar conteúdo */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+}
+
+.ad-principal-text {
+  text-align: center; /* Centraliza o texto */
+  color: #fff; /* Cor branca para o texto */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Adiciona uma sombra ao texto para melhorar a legibilidade */
+}
+
+.ad-principal-text h1 {
+  font-family: "Dancing Script", cursive;
+  color: #fff;
+  font-size: 4rem; /* Tamanho padrão */
+}
+
+.ad-principal-text p {
+  font-size: 1.5rem; /* Tamanho padrão */
+  font-style: italic;
+  color: #fff;
+}
+
+/* Media Queries para dispositivos menores */
+@media (max-width: 1024px) { /* Tablets */
+  .ad-principal-container {
+      height: 40vh; /* Reduz a altura */
   }
-  
-  .ad-principal-text {
-    text-align: center; /* Centraliza o texto */
-    color: #fff; /* Cor branca para o texto */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Adiciona uma sombra ao texto para melhorar a legibilidade */
+  .ad-principal-text h1 {
+      font-size: 3rem; /* Reduz o tamanho do título */
+      margin-top: 90px;
   }
-  
-  .ad-principal-text h1{
-    font-family: "Dancing Script", cursive;
-    color: #fff;
-    font-size: 4rem; /* Ajusta o tamanho do título */
+  .ad-principal-text p {
+      font-size: 1.2rem; /* Ajusta o tamanho do texto */
   }
- 
-  
- .ad-principal-text p {
-    font-size: 1.5rem; /* Ajusta o tamanho do parágrafo */
-    font-style: italic;
-    color: #fff;
+}
+
+@media (max-width: 768px) { /* Smartphones na horizontal */
+  .ad-principal-container {
+      height: 35vh; /* Reduz mais a altura */
   }
-  
+  .ad-principal-text h1 {
+      font-size: 2.5rem; /* Reduz o tamanho do título */
+  }
+  .ad-principal-text p {
+      font-size: 1rem; /* Ajusta o tamanho do texto */
+  }
+}
+
+@media (max-width: 480px) { /* Smartphones na vertical */
+  .ad-principal-container {
+      height: 30vh; /* Altura ainda menor */
+  }
+  .ad-principal-text h1 {
+      font-size: 2rem; /* Reduz ainda mais o tamanho do título */
+      margin-top: 90px;
+  }
+  .ad-principal-text p {
+      font-size: 0.9rem; /* Ajusta o tamanho do texto */
+  }
+}
